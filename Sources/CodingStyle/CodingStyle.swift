@@ -25,7 +25,7 @@ public struct CodingStyle {
         }
     ]
 
-    init(wrappedValue: String, coding: CodingType) {
+    public init(wrappedValue: String, coding: CodingType) {
         self.value = wrappedValue
         self.codingType = coding
     }
